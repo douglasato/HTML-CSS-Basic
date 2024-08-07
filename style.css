@@ -1,0 +1,84 @@
+body{
+    background-color: rgba(71, 70, 70, 0.123);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.polvo{
+   display: flex;
+   width: 400px;
+   margin: 0 0 0 28px;
+   justify-content: center;
+}
+
+.h1{
+    font-family: 'Lucida Sans';
+    font-size: 2 cm;
+    color: rgb(0, 0, 0);
+
+}
+
+.caixa{
+    background-color: white;
+}
+
+.button{
+    background-color: #cf417c;
+    border-radius: 5px;
+    font: Arial;
+    margin: 0 40%;
+    padding: 10px 15px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    transition: all 250ms ease 0s;
+    position: relative;
+    margin-top: 1em;
+    cursor: pointer;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    height: 3rem;
+    font-size: 1.125rem;
+
+}
+
+.container{
+    text-align: center;
+    margin-top: 50px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.caixa:focus{
+    outline: #cf417c 1px;
+    box-shadow: 0 0 3px;
+
+}
+
+.superior{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    transition: all 0.2s ease 0s;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 2.5rem;
+    border-radius: 0.25rem;
+    border-width: 1px;
+    background: #ffffff;
+
+}
