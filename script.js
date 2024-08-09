@@ -2,7 +2,7 @@ var numerosTentativas = 0;
 var n = 0;
 
 function EscolherNumero(){
-    var numero = document.getElementById('inputNumero').value;
+    n = document.getElementById('inputNumero').value;
 
     numero.innerHTML = '' //string vazia pra limpar de forma automatica o valor do input
 
@@ -29,3 +29,4 @@ function VerificarNum(){
         alert(`Parabéns você acertou em ${numerosTentativas} tentativas!`)
     }
 }
+document.getElementById('botao').addEventListener('click', VerificarNum);
