@@ -28,5 +28,6 @@ function VerificarNum(){
     }else{
         alert(`Parabéns você acertou em ${numerosTentativas} tentativas!`)
     }
+     document.getElementById('inputNumero').value = ''
 }
-document.getElementById('botao').addEventListener('click', VerificarNum);
+   
