@@ -13,8 +13,8 @@ body{
 .painel{
     background-color: tomato;
     bottom: 5px solid brown;
-    height: 500px;
-    width: 500px;
+    height: 450px;
+    width: 400px;
     border-radius: 10px;
     color: black;
     text-align: center;
@@ -32,7 +32,6 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15px;
-
 }
 
 #pokebola{
@@ -52,6 +51,13 @@ body{
     margin-bottom: 10px;
     border-radius: 10px;
     animation: carregar 2s alternate;
+    overflow: hidden;
+}
+
+.pokemon {
+    max-width: 100%;
+    max-height: 100%;
+    block-size: 50px; /* Mantém a proporção dos GIFs */
 }
 
 @keyframes carregar {
